@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_5">
+
+    <TextView
+        android:id="@+id/txt_fr5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:padding="30dp"
+        android:background="#72000000"
+        android:textColor="#D64005"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:textSize="50dp"
+        tools:text="Title"/>
+
+
+    <Button
+        android:id="@+id/btn_fr5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Показать"/>
+
+</RelativeLayout>
